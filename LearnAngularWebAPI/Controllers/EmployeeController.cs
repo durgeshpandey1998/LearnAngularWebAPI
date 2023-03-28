@@ -59,6 +59,10 @@ namespace LearnAngularWebAPI.Controllers
             }
         }
 
+        private bool TestData()
+        {
+            return true;
+        }
         [HttpPost("Test")]
         public IActionResult test()
         {
