@@ -38,6 +38,8 @@ namespace LearnAngularWebAPI.Controllers
             }
             if(userModel.Email!="" && userModel.Phoneno!="" && userModel.Password != "")
             {
+                var mydata = "Durgesh";
+                var test = "Jay";
             userModel1.IsDelete = true;
             userModel1.IsActive = true;
             userModel1.Email = userModel.Email;
