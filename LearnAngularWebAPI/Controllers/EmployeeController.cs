@@ -61,7 +61,7 @@ namespace LearnAngularWebAPI.Controllers
         private string Test()
         {
             var userModel = new UserModel();
-            return string.Empty;
+            return "";
         }
 
         private bool TestData()
