@@ -68,6 +68,12 @@ namespace LearnAngularWebAPI.Controllers
         {
             return true;
         }
+        public string myname()
+        {
+            return "";
+        }
+
+
         [HttpPost("Test")]
         public IActionResult test()
         {
