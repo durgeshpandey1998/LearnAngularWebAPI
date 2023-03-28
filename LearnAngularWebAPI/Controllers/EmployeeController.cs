@@ -60,6 +60,7 @@ namespace LearnAngularWebAPI.Controllers
         }
         private bool Test()
         {
+            var userModel = new UserModel();
             return true;
         }
 
