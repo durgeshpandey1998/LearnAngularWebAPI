@@ -58,7 +58,16 @@ namespace LearnAngularWebAPI.Controllers
                 return Ok("wrong");
             }
         }
+        private bool Test()
+        {
+            var userModel = new UserModel();
+            return false;
+        }
 
+        private bool TestData()
+        {
+            return true;
+        }
         [HttpPost("Test")]
         public IActionResult test()
         {
