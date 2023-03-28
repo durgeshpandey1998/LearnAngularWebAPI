@@ -58,17 +58,17 @@ namespace LearnAngularWebAPI.Controllers
                 return Ok("wrong");
             }
         }
-        private bool Test()
+        private string Test()
         {
             var userModel = new UserModel();
-            return false;
+            return " ";
         }
 
         private bool TestData()
         {
             return true;
         }
-        public string myname()
+       public string myname()
         {
             return "";
         }
